@@ -1,5 +1,12 @@
 
-WIP:
+### dirs
+
+A minimal library that offers platform-specific paths for configuration files, cache, and other data directories.
+
+### Installation
+```bash
+go get github.com/ansrivas/dirs@latest
+```
 
 
 ```golang
@@ -27,3 +34,9 @@ func main() {
 	fmt.Println("Config Directory:", config)
 
 ```
+
+### License
+MIT License
+
+### Contributing
+Contributions are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request.
